@@ -5,6 +5,9 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+
+/* ......................................................Nav bar.......................................... */
 .nav-bar{
     height: 90px;
     width:100%;
@@ -46,9 +49,14 @@ top: 577px;
     font-size: 20px;
 }
 .btn{
-    font-size: 19px;
-    padding: 10px;
-    border-radius: 10px;
+    font-size: 21px;
+    padding: 12px;
+    font-weight: 12;
+    border-radius: 6px ;
+    background-color:#0069a8;
+    color:#ffffff;
+     border:none;
+    
 }
 
 
@@ -70,13 +78,14 @@ top: 577px;
 
 
 section{
-    background-color: rgb(220, 210, 210);
+    background-color:#ffffff;
     display:flex;
     justify-content: space-between;
     width:100%;
     padding:10px;
     padding-left: 33px;
-    height:900px;
+    height:780px;
+    margin-top:50px;
 
 }
 
@@ -87,6 +96,12 @@ section{
     margin-top: 66px;
        margin-left:12px;
 }
+.font{
+    color:#0069a8;
+}
+.er{
+    color:rgb(76, 69, 76);
+}
 
 .text p{
     font-size: large;
@@ -95,16 +110,19 @@ section{
 }
 
 .bt{
- font-size: 19px;
- padding: 10px;
- border-radius: 7px;
- background-color: rgb(192, 185, 190);
+    font-size: 18px;
+    padding: 14px;
+    font-weight: 12;
+    border-radius: 6px ;
+    background-color:#0069a8;
+    color:#ffffff;
+     border:none;
 }
 
-
+/* ..................................................Second Section.......................................... */
 .Section-2{
 width: 100%;
-height: 1200px;
+height: 1000px;
 background-color: aliceblue;
 display: flex;
 justify-content: space-between;
@@ -119,6 +137,9 @@ justify-content: space-between;
 }
 .Text h1{
     margin-left: 5px;
+}
+.nr{
+    color:tomato;
 }
 .Text{
     margin-left: 45px;
@@ -153,10 +174,13 @@ justify-content: space-between;
   margin-right: 30px;
   height:930px;
 }
+.vn{
+color:orange;
+
+}
 
 
-
-
+/* ......................................third section................................................ */
 
 
 .third{
@@ -187,11 +211,17 @@ border-radius: 20px;
 }
 
 .aw1:hover{
-    background-color: bisque;
+    background-color: rgb(163, 185, 21);
     width:270px;
     height:280px;
     rotate: 1deg;
     
+}
+.ml{
+    color:rgb(12, 113, 254);
+}
+.nm{
+    color:#ef9608;
 }
 
 .last{
@@ -215,8 +245,16 @@ border-radius: 20px;
     font-family: 'Lucida Sans';
     font-size: large;
 }
+
+
 .Why h1{
-    color:brown;
+    color:#0069a8;
+    text-align: left;
+    font-family: Cambria;
+    margin-left: 240px;
+}
+.vb{
+    color:sienna;
 }
 
 .Why {
@@ -225,7 +263,7 @@ border-radius: 20px;
     background-color: rgb(235, 239, 243);
 
 }
-
+/* ..................................................footer section/end section.................................. */
 footer p{
         font-size: 16px;
         background-color: rgb(71, 69, 67);
