@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.nav-bar{
+    height: 90px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar h1{
+    margin: 14px;
+    padding:10px;
+}
+.nav-bar ul {
+float:right;
+margin-left:200px;
+}
+.nav-bar ul li{
+    display: inline-block;
+    line-height: 80px;
+    font-size: large;
+    padding: 12px;
+    margin-right: 22px; 
+}
+.title {
+    text-align:center;
+}
+
+.title img{
+width:100%;
+padding: 10px;
+}
+
+
+.Main-title{
+    font-size: 31px;
+}
+.Main-pera{
+    font-size: 20px;
+}
+.btn{
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* .............................Main section........................... */
+/* .main{
+    width: 1200px;
+    height:1000px;
+    background-color: aqua;
+    align-items: center;
+}
+.photo{
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr);
+
+}
+
+.titl{
+text-align: right;
+top:30px;
+
+}
+.per{
+    text-align: right;
+}
+.bt{
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 12px;
+} */
+
+.section{
+    background-color: rgb(220, 210, 210);
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    padding:10px;
+    padding-left: 33px;
+}
+
+
+.section h1{
+    font-size:45px;
+    margin-top: 230px;
+    
+}
+
+.section p{
+    font-size: large;
+    padding: 10px;
+
+}
+.bt{
+ font-size: 19px;
+ padding: 10px;
+ border-radius: 7px;
+ background-color: lavender;
+}
+.Section-2{
+width: 100%;
+height: 1200px;
+background-color: aliceblue;
+display: flex;
+justify-content: space-between;
+
+}
+.titw{
+    width:300px;
+    height: 150px;
+    padding: 30px;
+    box-shadow: 2px 3px rosybrown;
+    margin:30px;
+}
+.Text h1{
+    margin-left: 5px;
+}
+.Text{
+    margin-left: 45px;
+    padding-left: 15px;
+    margin-top: 22px;
+    padding-top: 22px;
+}
+
+.Text p{
+    padding:10px;
+    font-size: 19px;
+}
+
+.vertical{
+    border-left: 5px solid red;
+    height:70px;
+    position:absolute;
+    left:3.5em;
+}
+.bn{
+    background-color:slategrey;
+    box-sizing: border-box;
+    right: 130px;
+    width:60%;
+    margin-left: 600px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.third{
+    width:100%;
+    height:400px;
+}
+.section-3{
+margin:55px;
+padding-left:34px ;
+
+
+}
+.award{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.aw1{
+  border:1px solid royalblue;
+  padding: 40px;
+text-align: center;
+width:250px;
+height: 250px;
+background-color: rgb(97, 16, 228);
+transition: width 2s,height 2s, background-color 2s, transform 2s ;
+border-radius: 20px;
+}
+
+.aw1:hover{
+    background-color: bisque;
+    width:270px;
+    height:280px;
+    rotate: 1deg;
+    
+}
+
+.last{
+    text-align: center;
+    margin:20px;
+    padding: 44px;
+    font-size: larger;
+}
+.last p{
+    padding: 12px;
+    margin-top: 14px;
+}
+.last img{
+    justify-content: space-around;
+    padding: 33px;
+}
+.Why ul li{
+    Color:rgb(40, 33, 35);
+    font-size: large;
+    padding: 10px;
+    font-family: 'Lucida Sans';
+    font-size: large;
+}
+.Why h1{
+    color:brown;
+}
+
+.Why {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(235, 239, 243);
+
+}
+
+footer p{
+        font-size: 16px;
+        background-color: rgb(71, 69, 67);
+        text-align: center;
+        padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
